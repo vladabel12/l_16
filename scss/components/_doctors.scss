@@ -1,0 +1,115 @@
+.doctors{
+    &__header{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 56rem;
+    }
+
+    &__title{
+        font-weight: 700;
+        font-size: 48rem;
+        color: var(--logo-color);
+    }
+    &__description{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 111rem;
+    }
+    &__desc{
+        max-width: 837rem;
+        font-weight: 400;
+        font-size: 16rem;
+        text-align: center;
+        color: var(--logo-color);
+    }
+
+    &__section{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 130rem;
+    }
+
+    &__info{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30rem;
+
+        @include desktop-small{
+            grid-template-columns: auto auto;
+        }
+
+        @include tablet-small{
+            grid-template-columns: auto;
+        }
+    }
+}
+
+.doctors-information{
+    border-radius: 20rem;
+    max-width: 370rem;
+    background: var(--services-color);
+    padding: 44rem 38rem 33rem 39rem;
+
+    &__icon{
+        border-radius: 50%;
+    }
+
+    &__name{
+        font-weight: 600;
+        font-size: 20rem;
+        color: var(--logo-color);
+        margin-bottom: 3rem;
+    }
+
+    &__main{
+        display: flex;
+        justify-content: space-between;
+        gap: 13rem;
+        align-items: center;
+        margin-bottom: 25rem;
+    }
+
+
+    &__desc{
+        font-weight: 400;
+        font-size: 16rem;
+        color: var(--desc-color);
+    }
+    &__info{
+        font-weight: 400;
+        font-size: 16rem;
+        color: var(--desc-color);
+        margin-bottom: 39rem;
+    }
+
+    &__button{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn{
+        display: inline-flex;
+        cursor: pointer;
+        border-radius: 50rem;
+        width: 283rem;
+        height: 44rem;
+        background: var(--main-color);
+
+    }
+
+    &__btn-text{
+        margin: 10rem 40rem;
+        font-weight: 600;
+        font-size: 20rem;
+        color: var(--services-color);
+
+    }
+
+.zubair{
+    max-width: 250rem;
+}
+
+.zubair-info{
+    display: flex;
+    justify-content: start;
+}}

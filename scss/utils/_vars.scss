@@ -1,0 +1,22 @@
+// breakpoints
+$desktop-small: 1200px;
+$desktop-xs: 1100px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+$mobile-m: 425px;
+
+
+:root {
+	--ff: "Work Sans", sans-serif;
+	--transition: .2s all ease-in-out;
+
+	--c-primary: rgba(55, 57, 58, 0.9);
+	--c-text-white: #fff;
+	--c-border: #eee;
+	--logo-color: #262626;
+	--links-color: #000;
+	--main-color: #8842f0;
+	--services-color: #f9f1fe;
+	--desc-color: #575757;
+}

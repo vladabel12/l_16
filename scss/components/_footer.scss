@@ -1,0 +1,100 @@
+.footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 130rem;
+    background: var(--services-color);
+    padding-top: 106rem;
+
+    &__ending{
+        max-width: 431rem;
+    }
+
+    &__title{
+        font-weight: 600;
+        font-size: 24rem;
+        color: var(--logo-color);
+        margin-bottom: 26rem;
+    }
+
+    &__desc{
+        font-weight: 400;
+        font-size: 16rem;
+        color: var(--logo-color);
+    }
+
+    &__find-us{
+        max-width: 285rem;
+    }
+
+    &__contacts{
+        font-weight: 600;
+        font-size: 20rem;
+        color: var(--logo-color);
+        margin-bottom: 9rem;
+    }
+
+    &__phone{
+        display: flex;
+        justify-content: start;
+    }
+
+    &__search{
+        margin-bottom: 33rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 16rem;
+    }
+
+    &__link{
+        font-weight: 400;
+        font-size: 16rem;
+        color: var(--logo-color);
+        transition: 0.2s all ease-in-out;
+
+        &:hover{
+            transform: scale(1.05);
+            color: var(--main-color);
+        }
+    }
+
+    &__info{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__main{
+        display: flex;
+        justify-content: space-between;
+        gap: 90rem;
+        align-items: baseline;
+
+        @include desktop-xs{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 30rem;
+        }
+
+        @include mobile{
+            grid-template-columns: auto;
+            gap: 40rem;
+        }
+    }
+
+    &__opening{
+        max-width: 187rem;
+    }
+
+    &__opening-title{
+        font-weight: 600;
+        font-size: 20rem;
+        color: var(--logo-color);
+        margin-bottom: 17rem;
+    }
+
+}
+.hours{
+    font-weight: 400;
+    font-size: 16rem;
+    color: var(--logo-color);
+    margin-bottom: 11rem;
+}

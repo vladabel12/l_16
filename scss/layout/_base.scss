@@ -1,0 +1,29 @@
+html {
+	font-size: 1px;
+	@include mobile{
+        font-size: 0.8px;
+    }
+
+    @include mobile-m{
+        font-size: 0.7px;
+    }
+}
+
+body {
+	font-family: var(--ff);
+	font-size: 16rem;
+}
+
+.container {
+	max-width: calc(1170rem - 40rem);
+	padding: 0 20rem;
+	margin-inline: auto;
+}
+
+.btn {
+	display: inline-block;
+	cursor: pointer;
+	border: 0;
+	font-family: var(--ff);
+	border-radius: 50rem;
+}
