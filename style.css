@@ -382,7 +382,7 @@ body {
             flex-direction: column;
     left: 0;
     top: 0;
-    background: var(--c-primary);
+    background: #37393a;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

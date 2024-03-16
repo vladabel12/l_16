@@ -72,7 +72,7 @@
 	bottom: 30px;
 }
 @media (max-width: 992px) {
-	.owl-dots {
+	.owl-carousel .owl-dots {
 	  bottom: 10px;
 	}
   }
